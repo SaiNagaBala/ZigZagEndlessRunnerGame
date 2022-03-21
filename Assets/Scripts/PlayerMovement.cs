@@ -35,5 +35,11 @@ public class PlayerMovement : MonoBehaviour
 
 
     }
-    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag=="Tile")
+        {
+            Destroy(collision.gameObject,1f);
+        }    }
+
 }
