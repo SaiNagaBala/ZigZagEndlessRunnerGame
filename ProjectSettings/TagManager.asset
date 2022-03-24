@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tile
+  - Coin
+  - Right
+  - Forward
   layers:
   - Default
   - TransparentFX
